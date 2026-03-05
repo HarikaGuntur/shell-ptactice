@@ -11,3 +11,7 @@ echo "sum is :$sum"
 fruits=("apple","bananna","pomo")
 
 echo "fruits are :${fruits[@]}"
+#indexing
+echo "fruits are :${fruits[0]}"
+echo "fruits are :${fruits[1]}"
+echo "fruits are :${fruits[2]}"
