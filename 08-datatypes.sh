@@ -6,3 +6,8 @@ num2=200
 sum=$((num1+num2))
 
 echo "sum is :$sum"
+
+#array
+fruits=("apple","bananna","pomo")
+
+echo "fruits are :${fruits[@]}"
